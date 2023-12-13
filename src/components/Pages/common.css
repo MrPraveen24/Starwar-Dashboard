@@ -1,0 +1,53 @@
+/* .listItem{
+    display: flex;
+    flex-direction: column;
+  }
+  .card {
+    border: 1px solid black;
+    padding: 2em;
+    color: green;
+  } */
+  #MainGrid{
+    padding: 15px;
+  }
+  #gridOfAll{
+    display: grid;
+    grid-template-columns: .2fr 4fr 1fr;
+    background-color: #354063;
+    border-radius: 10px;
+  }
+  #navbarIcon > span > button{
+    color: aliceblue;
+    border-radius: gray;
+    margin: 0;
+  }
+#navbarIcon > span > button:hover{
+  background-color: whitesmoke;
+  color: gray;
+}
+  @media only screen and (max-width: 1100px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  @media only screen and (max-width: 968px) {
+    .grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+@media only screen and (max-width: 768px) {
+  .grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .grid{
+      display: flex;
+      flex-direction: column;
+  }
+}

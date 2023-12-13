@@ -1,0 +1,13 @@
+#offcanvasRight{
+    color: whitesmoke;
+    background-color: #03123B;
+}
+#sidebar-details{
+    display: flex;
+    flex-direction: column;
+    color: aliceblue;
+}
+#closeCanvas{
+    
+    background-color: aliceblue;
+}

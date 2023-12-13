@@ -1,0 +1,106 @@
+.menuLogo{
+    width: 30px;
+    margin-right: 20px;
+}
+.dropdown-menu{
+    background-color: #03123B;
+}
+.sideMenu{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    padding-left: 15px;
+    background-color: #03123B;
+}
+li{
+    text-decoration: none;
+    background-color: #03123B;
+    width: 100%;
+}
+
+.MenuTitle{
+    display: flex;
+    align-items: center;
+}
+span{
+    color: aliceblue;
+}
+.spinner-border{
+    color: aliceblue;
+}
+.button{
+    background-color: #03123B;
+    width: 100%;
+    text-align: start;
+    height: 50px;
+    border: none;
+    margin-bottom: 20px;
+    background-color: none;
+    font-weight: 600;
+    color: aliceblue;
+    border-radius: 10px;
+}
+.button:visited{
+    background-color: #cc1980;
+}
+#insideButton{
+    display: grid;
+    grid-template-columns: 1fr 2fr .5fr;
+    width: 240px;
+    margin-top: 1px;
+   border-radius: 10px;
+   align-items: center;
+   border:1px solid #fff
+}
+#insideButton:hover{
+    background-color: #354063;
+}
+#dropdownMenuButton1{
+    display: grid;
+    grid-template-columns: 1.5fr 5fr 1fr;
+    padding: 0;
+    width: 250px;
+}
+#insideButton > span{
+    margin-left: 50px;
+}
+#dropdownMenuButton1{
+    padding: 0px;
+}
+
+button:hover{
+    background-color: #cc1980;
+}
+
+button:visited{
+    background-color: #cc1980;
+}
+.smallScreen{
+    display: none;
+}
+@media only screen and (max-width: 600px) {
+    .sideMenu{
+        width: 100%;
+    
+    }
+    
+        button:hover{
+            background-color: #cc1980;
+        } 
+        button:visited{
+            background-color: #cc1980;
+        }
+        .fullscreen{
+            display: none;
+        }
+        .smallScreen{
+            display: block;
+            background-color: #03123B;
+            color: aliceblue;
+        }
+        #collapseExample{
+            background-color: #03123B;
+        } 
+}

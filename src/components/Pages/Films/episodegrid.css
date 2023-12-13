@@ -1,0 +1,127 @@
+.grid{
+    max-width: 120rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.6rem;
+  }
+  .gird{
+    margin: 7px;
+  }
+  .card{
+    border: none;
+    background-color: #03123B;
+  }
+  .card > img{
+    border-radius: 10px;
+  }
+#MovieDetails {
+    margin-top: 4px;
+    border-radius: 10px;
+    display: flex;
+    background-color: #354063;
+}
+.flex-item-left {
+    padding: 10px;
+    flex: 10%;
+  }
+  .flex-item-middle{
+    flex: 80%;
+    color: white;
+  }
+  .flex-item-middle > h5{
+    color: whitesmoke;
+    margin-top: 14px;
+    margin-left: 8px;
+  }
+  .flex-item-right {
+    /* padding: 10px; */
+    margin-top: 6px;
+    flex: 8%;
+  }
+.title{
+    display: flex;
+    color: black;
+    border-radius: 20px;
+    background-color: 1px solid #333e61;
+    border-radius: 4px solid gray;
+}
+.list{
+    max-width: 120rem;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: #03123B;
+}
+
+.tableHeading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #354063;
+    margin: 10px;
+    padding-left: 2px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.tableHeading > span{
+    display: flex;
+    margin-right: 30px;
+    margin-left: 10px;
+    width:10%;
+}
+.h2{ 
+    font-size: medium; 
+    margin-left: 10px;
+}
+#movieName{
+  width: 100px;
+}
+.listCard{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid white;
+    margin: 10px;
+    flex-wrap: wrap;
+}
+.listCard > span{
+    display: flex;
+    margin-right: 30px;
+    width:10%;
+}
+.film-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: "1.6rem"
+}
+
+#movieIcon{
+    width: 35px;
+    height: 35px;
+}
+@media only screen and (max-width: 1000px) {
+  .film-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+@media only screen and (max-width: 968px) {
+  .film-grid{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+.film-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+}
+
+@media only screen and (max-width: 600px) {
+.film-grid{
+    display: flex;
+    flex-direction: column;
+}
+}
+/* style={{display: "grid",gridTemplateColumns : "1fr 1fr 1fr", gap: "1.6rem"}} */

@@ -1,0 +1,17 @@
+.navbar-toggler{
+    color: aliceblue;
+}
+.container-fluid{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 20px 4px 12px;
+    position: relative;
+}
+form{
+    position: absolute;
+    right: 0;
+    padding: 10px;
+}
+

@@ -1,0 +1,70 @@
+/* Dropdownlist css */
+#dropdownList > li {
+    background-color: white;
+    color: red;
+
+}
+#dropdownMenuButton1:hover{
+    border: 1px solid darkgray;
+    background-color: gray;
+}
+#dropdownMenuButton2{
+    padding-right: 27px;
+    
+    color: white;
+    background-color: #5b6582;
+    width: 30%;
+}
+
+#dropdownList {
+    background-color: white;
+}
+
+.deleteLi > a{
+    color: red;
+}
+svg {
+    margin-right: 10px;
+}
+/* Modal css  */
+.modal-body > svg {
+            color:red;
+            margin-bottom: 10px;
+            border-radius: 50%;
+            border: 1px solid red;
+}
+.modal-body > p{
+        color: grey;
+        
+}
+.modal-body > h3{
+    color: black;
+}
+
+.deleteLi{
+    color: red;
+}
+
+.modal-footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+}
+.modal-footer > button{
+    border-radius: 6px;
+    width: 30%;
+    border: 1px solid gray;
+    height: 45px;
+}
+#footer-yes{
+    color: aliceblue;
+    border: none;
+}
+#footer-cancel:hover{
+        background-color: darkgrey;
+}
+
+.h2{
+    margin-bottom: 5px;
+}

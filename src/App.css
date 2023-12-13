@@ -1,0 +1,47 @@
+body{
+    background-color: #03123B;
+    color: whitesmoke;
+}
+.App{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+}
+.SideMenuAndPageContent{
+    display: flex;
+    flex: 1;
+    justify-content: flex-start;
+    align-items: flex-centre;
+}
+.PageContent{
+    margin-top: 11px;
+    width: 100%;
+    height: 100%;
+}
+.dashboard{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+@media only screen and (max-width: 600px) {
+    .dashboard{
+        display: flex;
+        justify-content: center;
+        margin-top: 200px;
+        margin-left: 150px;
+        position: relative;
+    }
+    .SideMenuAndPageContent{
+        display: block;
+    }
+    #dashboardImage{
+        width: 150%;
+        margin-right: 150px;
+    }
+    .PageContent{
+        display: flex;
+        flex-direction: column;
+    }
+
+  }
